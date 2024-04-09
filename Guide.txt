@@ -1,0 +1,34 @@
+
+### Simplified Definition of FPPS Numbers:
+FPPS numbers are special numbers derived from prime numbers. To get an FPPS number, you follow three steps:
+
+1. **Start with a Prime Number**: Pick a prime number, say \(p\).
+2. **Calculate the Factorial**: Find the factorial of \(p\), denoted as \(p!\). The factorial of a number is the product of all positive integers up to that number. For example, \(5! = 5 \times 4 \times 3 \times 2 \times 1 = 120\).
+3. **Sum the Digits**: Calculate the sum of the digits of the factorial \(p!\). This sum is the FPPS number for the prime \(p\).
+
+### Formula:
+Given a prime number \(p\), the corresponding FPPS number \(F\) can be found as follows:
+
+\[ F = \sum \text{digits of } (p!) \]
+
+Where:
+- \(p\) is a prime number,
+- \(p!\) denotes the factorial of \(p\),
+- \(\sum \text{digits of } (p!)\) represents the sum of the digits in the factorial of \(p\).
+
+### Example:
+Let's find the FPPS number for \(p = 5\):
+
+1. **Prime Number**: \(p = 5\)
+2. **Factorial**: \(5! = 120\)
+3. **Sum the Digits**: \(1 + 2 + 0 = 3\)
+
+So, the FPPS number for \(p = 5\) is 3.
+
+### How to Apply This in Programming Exercises:
+
+- **Primality Check**: Implement a function to check if a number is prime. This involves checking if the number is divisible by any number other than 1 and itself.
+- **Factorial Calculation**: Write a function to calculate the factorial of a number. This can be done either iteratively or recursively.
+- **Sum of Digits**: Create a function to compute the sum of the digits of a given number. You can do this by converting the number to a string and iterating through its characters or by using arithmetic operations to extract each digit.
+- **Putting It All Together**: Use these functions to generate FPPS numbers for a list of prime numbers, applying the formula described above.
+
