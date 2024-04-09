@@ -1,0 +1,31 @@
+### Proposed Number Pattern: Factorial Prime Positional Sum (FPPS)
+
+1. **Description**:
+   This pattern involves primes, factorials, and the sum of positional values of factorials.
+
+2. **Generation**:
+   - Start with a sequence of prime numbers: \(p_1, p_2, p_3, \ldots\) (e.g., 2, 3, 5, 7, 11, ...).
+   - Compute the factorial of each prime number: \(p_1!, p_2!, p_3!, \ldots\).
+   - For each factorial result, sum the digits in its positional value (units, tens, hundreds, etc.).
+   - The sequence is formed by these sums.
+
+3. **Pattern Illustration**:
+   - For the first few primes \(2, 3, 5\), the factorials are \(2!, 3!, 5!\) which are \(2, 6, 120\) respectively.
+   - The sum of digits for each factorial value is \(2, 6, 3\) (since \(1 + 2 + 0 = 3\)).
+
+4. **Continuing the Pattern**:
+   - Next prime is 7, so \(7! = 5040\), and the sum of its digits is \(5 + 0 + 4 + 0 = 9\).
+   - Following that, for 11, \(11! = 39916800\), and the sum of its digits is \(3 + 9 + 9 + 1 + 6 + 8 + 0 + 0 = 36\).
+
+5. **General Formula**:
+   Given a prime \(p\), let \(S(p!)\) be the sum of the digits of \(p!\). The sequence can be represented as \(\{S(p_1!), S(p_2!), S(p_3!), \ldots\}\) where \(p_i\) are primes.
+
+### Observations:
+- This pattern combines the properties of primes with the growth rate of factorials, further distilled into the sum of their digit's positional values.
+- It captures the exponential growth of factorials, the distribution of prime numbers, and the arithmetic properties of their factorial's digits.
+- Such a sequence would showcase sporadic behavior, reflecting both the unpredictability of prime distribution and the factorial growth rate.
+
+### Uniqueness and Complexity:
+- This pattern is unique in its combination of factorial growth and prime distribution, tied together by the digital root-like process but retaining the original sums.
+- The complexity and variety it embodies—spanning prime theory, factorial growth, and digital sum analysis—offer a rich ground for exploration.
+
