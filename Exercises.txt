@@ -1,0 +1,43 @@
+## Exercise 1: Basic FPPS Sequence Generation
+Objective: Write a program to generate and print the first N elements of the FPPS sequence.
+
+## Requirements:
+
+Implement a function to check if a number is prime.
+Implement a function to calculate the factorial of a number.
+Implement a function to calculate the sum of digits of a given number.
+Use the above functions to generate and print the first N elements of the FPPS sequence.
+Exercise 2: Find the First N FPPS Values Exceeding X
+Objective: Enhance your program to find and print the first N FPPS values that exceed a given value X.
+
+## Requirements:
+
+Reuse and adapt the functions from Exercise 1.
+After generating each FPPS value, check if it exceeds X.
+Stop the process once you have found N such values and print them.
+
+## Exercise 3: Summation and Averages of FPPS Values
+Objective: Calculate and display the sum and average of the first N FPPS values.
+
+##Requirements:
+
+Generate the first N FPPS values.
+Calculate the sum of these N values.
+Calculate the average of these N values and display it with appropriate formatting.
+Exercise 4: Identify Patterns in FPPS Sequence
+Objective: Write a program to identify and print any interesting patterns you can find in the first N FPPS values. For instance, how often do repeated values occur? Is there a pattern in the increases?
+
+Requirements:
+
+Generate a significant number of FPPS values (e.g., the first 100).
+Analyze the sequence for any patterns, such as repeating values, patterns in the increase or decrease of values, etc.
+Print a report summarizing any patterns you find, with examples from the sequence.
+Exercise 5: Parallel Computation of FPPS Values
+Objective (For more advanced programmers): Implement a parallelized version of the FPPS sequence generator to efficiently compute large elements in the sequence.
+
+Requirements:
+
+Use threads or parallel computing frameworks available in your language of choice (Java’s ForkJoinPool, C’s POSIX threads, etc.).
+Design the program to divide the computation of factorial, primality checking, and digit sum calculation across multiple threads or processes.
+Ensure thread safety and efficient synchronization of shared resources, if any.
+Compare the performance (in terms of execution time) of the parallelized version with a sequential version for generating a large number of FPPS values.
